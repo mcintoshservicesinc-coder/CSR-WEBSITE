@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7fbff"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+  <rect width="960" height="700" rx="24" fill="url(#g)"/>
+  <g fill="#cbd5e1">
+    <rect x="40" y="40" width="400" height="280" rx="14"/>
+    <rect x="520" y="40" width="400" height="280" rx="14"/>
+    <rect x="40" y="360" width="880" height="300" rx="14"/>
+  </g>
+  <text x="480" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#0a6e77">Before / After Collage</text>
+</svg>
