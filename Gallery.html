@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Complete Space Renovations</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Complete Space Renovations</a>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#work">Our Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Project Gallery</h1>
+    <p>Browse our work by project type.</p>
+
+    <section class="albums">
+      <div class="album">
+        <h2>Kitchens</h2>
+        <div class="gallery">
+          <a href="assets/kitchen1.jpg"><img src="assets/kitchen1-thumb.jpg" alt="Kitchen remodel 1"></a>
+          <a href="assets/kitchen2.jpg"><img src="assets/kitchen2-thumb.jpg" alt="Kitchen remodel 2"></a>
+        </div>
+      </div>
+
+      <div class="album">
+        <h2>Bathrooms</h2>
+        <div class="gallery">
+          <a href="assets/bath1.jpg"><img src="assets/bath1-thumb.jpg" alt="Bathroom remodel 1"></a>
+          <a href="assets/bath2.jpg"><img src="assets/bath2-thumb.jpg" alt="Bathroom remodel 2"></a>
+        </div>
+      </div>
+
+      <div class="album">
+        <h2>Commercial</h2>
+        <div class="gallery">
+          <a href="assets/commercial1.jpg"><img src="assets/commercial1-thumb.jpg" alt="Commercial remodel 1"></a>
+          <a href="assets/commercial2.jpg"><img src="assets/commercial2-thumb.jpg" alt="Commercial remodel 2"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Complete Space Renovations. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
